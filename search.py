@@ -115,7 +115,7 @@ def depthFirstSearch(problem):
         for x in succ:
             if (x[0] not in Ex):
                 newPath = path + [x[1]]
-                st.push((x[0],newPath))     # this is a tuple
+                st.push((x[0],newPath))     # this is a tuple changes
 
 
 def breadthFirstSearch(problem):
